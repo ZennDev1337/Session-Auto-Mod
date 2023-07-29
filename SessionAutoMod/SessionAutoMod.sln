@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SessionAutoMod", "SessionAutoMod.csproj", "{3E5AA15B-C803-4868-A1DD-6C017815331D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E5AA15B-C803-4868-A1DD-6C017815331D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E5AA15B-C803-4868-A1DD-6C017815331D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E5AA15B-C803-4868-A1DD-6C017815331D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E5AA15B-C803-4868-A1DD-6C017815331D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {459D0EFB-AE2A-4B86-8957-B0AE03451B2A}
+	EndGlobalSection
+EndGlobal
