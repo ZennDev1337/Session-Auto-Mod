@@ -1,0 +1,11 @@
+C:\Users\zenn\Desktop\SessionAutoMod\SessionAutoMod\obj\Debug\net5.0-windows\SessionAutoMod.csproj.AssemblyReference.cache
+C:\Users\zenn\Desktop\SessionAutoMod\SessionAutoMod\obj\Debug\net5.0-windows\SessionAutoMod.Boards.Boards.resources
+C:\Users\zenn\Desktop\SessionAutoMod\SessionAutoMod\obj\Debug\net5.0-windows\SessionAutoMod.LoadForm.resources
+C:\Users\zenn\Desktop\SessionAutoMod\SessionAutoMod\obj\Debug\net5.0-windows\SessionAutoMod.Properties.Resources.resources
+C:\Users\zenn\Desktop\SessionAutoMod\SessionAutoMod\obj\Debug\net5.0-windows\SessionAutoMod.SessionAutoModForm.resources
+C:\Users\zenn\Desktop\SessionAutoMod\SessionAutoMod\obj\Debug\net5.0-windows\SessionAutoMod.WindowMenu.TopBar.resources
+C:\Users\zenn\Desktop\SessionAutoMod\SessionAutoMod\obj\Debug\net5.0-windows\SessionAutoMod.csproj.GenerateResource.cache
+C:\Users\zenn\Desktop\SessionAutoMod\SessionAutoMod\obj\Debug\net5.0-windows\SessionAutoMod.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zenn\Desktop\SessionAutoMod\SessionAutoMod\obj\Debug\net5.0-windows\SessionAutoMod.AssemblyInfoInputs.cache
+C:\Users\zenn\Desktop\SessionAutoMod\SessionAutoMod\obj\Debug\net5.0-windows\SessionAutoMod.AssemblyInfo.cs
+C:\Users\zenn\Desktop\SessionAutoMod\SessionAutoMod\obj\Debug\net5.0-windows\SessionAutoMod.csproj.CoreCompileInputs.cache

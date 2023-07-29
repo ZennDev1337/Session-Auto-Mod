@@ -82,16 +82,5 @@ namespace SessionAutoMod {
                 this["aesKey"] = value;
             }
         }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        public bool showSettings {
-            get {
-                return ((bool)(this["showSettings"]));
-            }
-            set {
-                this["showSettings"] = value;
-            }
-        }
     }
 }

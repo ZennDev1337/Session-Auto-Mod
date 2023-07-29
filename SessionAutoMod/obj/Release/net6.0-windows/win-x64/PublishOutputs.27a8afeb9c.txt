@@ -1,0 +1,3 @@
+C:\Users\zenn\Desktop\SessionAutoMod\SessionAutoMod\bin\Release\net6.0-windows\publish\win-x64\SessionAutoMod.pdb
+C:\Users\zenn\Desktop\SessionAutoMod\SessionAutoMod\bin\Release\net6.0-windows\publish\win-x64\SessionAutoMod.dll.config
+C:\Users\zenn\Desktop\SessionAutoMod\SessionAutoMod\bin\Release\net6.0-windows\publish\win-x64\SessionAutoMod.exe

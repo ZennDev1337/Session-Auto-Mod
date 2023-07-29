@@ -1,8 +1,6 @@
 using SessionAutoMod.DTO;
 using System.Diagnostics;
 using System.Runtime.InteropServices;
-using System.Security.Policy;
-using static System.Net.WebRequestMethods;
 
 namespace SessionAutoMod
 {
@@ -24,8 +22,19 @@ namespace SessionAutoMod
             directorys.Add(aesTextBox);
             LoadSettings();
             ShowHideSettings();
-            Debug.WriteLine(userSettings.Default.showSettings);
             aesTextBox.Text = "0x2d0e2b103cf0b3cb5ea8d6b774ea49400d36bd431f4bdeff74f99261bd1dabdc";
+        }
+
+        private bool SettingsCheckBool()
+        {
+            directorys.ForEach(directory =>
+            {
+                if (directory.Text.Length == 0)
+                {
+                    throw new Exception("kekw");
+                }
+            });
+            return true;
         }
 
         private void SettingsCheck()
@@ -179,50 +188,43 @@ namespace SessionAutoMod
 
         private void ShowHideSettings()
         {
-            if (!userSettings.Default.showSettings)
+
+            try
             {
+                SettingsCheckBool();
                 showHideButton.Text = "Show";
                 settingsTableLayoutPanel.Visible = false;
                 logoPictureBox.Visible = true;
                 logoPictureBox.Enabled = true;
+
             }
-            else
+            catch (Exception)
             {
-                userSettings.Default.showSettings = true;
                 showHideButton.Text = "Hide";
                 settingsTableLayoutPanel.Visible = true;
                 logoPictureBox.Visible = false;
                 logoPictureBox.Enabled = false;
+                
             }
         }
 
         private void showHideButton_Click(object sender, EventArgs e)
         {
-            if (userSettings.Default.showSettings)
+            if (showHideButton.Text == "Hide")
             {
-                try
-                {
-                    SettingsCheck();
-                }
-                catch (Exception)
-                {
-                    return;
-                }
-                userSettings.Default.showSettings = false;
                 showHideButton.Text = "Show";
                 settingsTableLayoutPanel.Visible = false;
                 logoPictureBox.Visible = true;
                 logoPictureBox.Enabled = true;
-                SaveSettings();
             }
             else
             {
-                userSettings.Default.showSettings = true;
+
                 showHideButton.Text = "Hide";
                 settingsTableLayoutPanel.Visible = true;
                 logoPictureBox.Visible = false;
                 logoPictureBox.Enabled = false;
-                SaveSettings();
+
             }
         }
 

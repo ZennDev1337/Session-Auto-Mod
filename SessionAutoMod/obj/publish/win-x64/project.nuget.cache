@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "+aMZnVcdhIINeLsadFtBbDx1UxVGAV8COLQcHk4v8LzFuqqDx9eOfCr2fPi1icqoJqPXK6W48gcAGl+m6jAGBQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\zenn\\Desktop\\SessionAutoMod\\SessionAutoMod\\SessionAutoMod.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\zenn\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\6.0.16\\microsoft.netcore.app.runtime.win-x64.6.0.16.nupkg.sha512",
+    "C:\\Users\\zenn\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\6.0.16\\microsoft.windowsdesktop.app.runtime.win-x64.6.0.16.nupkg.sha512",
+    "C:\\Users\\zenn\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\6.0.16\\microsoft.aspnetcore.app.runtime.win-x64.6.0.16.nupkg.sha512",
+    "C:\\Users\\zenn\\.nuget\\packages\\microsoft.netcore.app.crossgen2.win-x64\\6.0.16\\microsoft.netcore.app.crossgen2.win-x64.6.0.16.nupkg.sha512"
+  ],
+  "logs": []
+}
